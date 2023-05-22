@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/xpzeeqwg" method="POST">
+
+        <h1>Meu Formulário</h1>
+        
+        <p>
+            <label>Digite seu nome:</label> <br>
+            <input placeholder="Digite algo..." type="text" required>
+        </p>
+
+        <p>
+            <label>Digite sua mensagem aqui...</label> <br>
+            <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Digite aqui..."></textarea>
+        </p>
+
+        <p>
+            <label>Marque os esportes que você pratica:</label>
+            <ul>
+                <li> <input value="SIM" name="judo" type="checkbox">Judô</li>
+                <li> <input  value="SIM" name="futebol" type="checkbox">Futebol</li>
+                <li> <input  value="SIM" name="natacao" type="checkbox">Natação</li>
+                <li> <input  value="SIM" name="musculacao" type="checkbox">Musculação</li>
+                <li> <input  value="SIM" name="danca" type="checkbox">Dança</li>
+                <li> <input  value="SIM" name="corrida" type="checkbox">Corrida</li>
+                <li> <input  value="SIM" name="outro" type="checkbox">Outro</li> <br>
+                
+            </ul>
+        </p>
+
+        <p>
+            <label>Escolha sua cor favorita:</label>
+            <ul>
+                <li> <input value="vermelho" name="corFavorita" type="radio"> Vermelho</li>
+                <li><input value="laranja" name="corFavorita" type="radio"> Laranja</li>
+                <li> <input value="amarelo" name="corFavorita" type="radio"> Amarelo</li>
+                <li> <input value="verde" name="corFavorita" type="radio"> Verde</li>
+                <li><input value="azul" name="corFavorita" type="radio"> Azul</li>
+                <li> <input value="anil" name="corFavorita" type="radio"> Anil</li>
+                <li> <input value="violeta" name="corFavorita" type="radio"> Violeta</li>
+            </ul>
+        </p>
+
+        <p>
+            <label>Escolha seu Estado</label> <br>
+            <select>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+            </select>
+        </p>
+
+
+        <p>
+            <input value="SIM" name="termosDoContrato" type="checkbox">Eu aceito os termos de uso. <br><br>
+            <button type="submit">Enviar</button>
+        </p>
+        
+    </form>
+</body>
+</html>
